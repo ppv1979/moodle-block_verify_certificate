@@ -16,6 +16,7 @@
 
 require_once("../../config.php");
 require_once($CFG->dirroot . '/mod/certificate/lib.php');
+require_once($CFG->dirroot . '/mod/certificate/locallib.php');
 global $DB;
 
 $id = required_param('certnumber', PARAM_ALPHANUM);   // Certificate code to verify.
